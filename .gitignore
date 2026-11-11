@@ -1,0 +1,33 @@
+# 二进制与厂商资源：一律不入库
+*.bin
+*.BIN
+*.OFF
+*.pyc
+*.so
+*.img
+*.pyd
+*.dll
+*.exe
+*.apk
+*.zip
+*.7z
+
+# 反编译 / 解包产物
+extracted/
+pyz/
+device_backup/
+web9090/
+webui/
+
+# 设备 / 网络现场数据（含唯一标识与凭据）
+nv_cfg*.txt
+nv_now.txt
+*_dump.txt
+*.log
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+__pycache__/
